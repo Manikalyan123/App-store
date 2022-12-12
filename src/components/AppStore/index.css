@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.Cont {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-size: 50px;
+}
+
+.input-cont {
+  height: 35px;
+
+  border: solid 1px black;
+  background-color: transparent;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+}
+.input {
+  height: 30px;
+  width: 300px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: transparent;
+}
+.search {
+  height: 25px;
+  width: 25px;
+  padding-top: 3px;
+}
+.unOrderList {
+  display: flex;
+  flex-direction: row;
+}
+.appsCont {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

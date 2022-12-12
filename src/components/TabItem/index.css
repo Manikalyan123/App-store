@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.tab-name {
+  font-size: 20px;
+  color: #7b8794;
+  margin-bottom: 0px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.listOrder {
+  list-style: none;
+  margin: 10px;
+  cursor: pointer;
+}
+.border {
+  border-bottom: solid;
+  border-color: #2563eb;
+  padding-bottom: 0px;
+}
