@@ -4,7 +4,7 @@ import './index.css'
 
 const AppItem = props => {
   const {appsList} = props
-  const {appId, appName, imageUrl, category} = appsList
+  const {appName, imageUrl} = appsList
 
   return (
     <li className="listOrders">
