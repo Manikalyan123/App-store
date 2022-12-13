@@ -327,7 +327,7 @@ class AppStore extends Component {
           <img
             src="https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png"
             className="search icon"
-            alt="search"
+            alt="search icon"
           />
         </div>
         <ul className="unOrderList">
@@ -340,12 +340,19 @@ class AppStore extends Component {
             />
           ))}
         </ul>
-
-        <ul className="appsCont">
-          {searchResults.map(each => (
-            <AppItem appsList={each} key={each.appId} />
-          ))}
-        </ul>
+        {target.length === 0 ? (
+          <ul className="appsCont">
+            {filteredApps.map(each => (
+              <AppItem appsList={each} key={each.appId} />
+            ))}
+          </ul>
+        ) : (
+          <ul className="appsCont">
+            {searchResults.map(each => (
+              <AppItem appsList={each} key={each.appId} />
+            ))}
+          </ul>
+        )}
       </div>
     )
   }
